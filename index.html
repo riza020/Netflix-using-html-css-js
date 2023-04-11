@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- navbar -->
+ <div class="nav">
+    <div class="nav__left">
+      <img class="nav_logo" src="logo.svg" alt="">
+      <img src="icons8-netflix-96.png" alt="" id="netflix">
+    </div>
+
+    <div class="nav__right">
+    <input id="search" type="search" placeholder="Enter Name" aria-label="Search" />
+      <img src="avatar.png" class="nav_avatar" alt="">
+    </div>
+  </div>
+
+  <!-- banner -->
+  <header id="banner">
+    <div id="banner__contents">
+      <h1 id="banner__title"></h1>
+      <div id="banner__buttons">
+      <button id="banner__button">Play</button>
+      <button id="banner__button">My List</button>
+    </div>
+    <p id="banner__description"></p>
+    </div>
+    <div id="banner__fadeBottom"></div>
+  </header>
+
+  <!-- row -->
+  <div id="headrow">
+    <div class="row">
+      <h2 class="row__title"></h2>
+      <div class="row__posters"></div>
+    </div>
+  </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
